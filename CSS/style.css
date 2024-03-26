@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+.varela-regular {
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+	font-family: "Varela", sans-serif;font-size: 16px;color: #666666;margin: 0
+}
+
+header{
+	width: 100%;height: 60px;background-color: #BCBCBC;border-bottom: 1px solid darkred
+}
+.banner{
+	width: 100%;min-height: 400px;
+}
+main{
+	width: 100%;min-height: 500px
+}
+aside{
+	width: 30%;padding: 15px;min-height: 500px
+}
+.content{
+	width: 70%;padding: 15px;min-height: 500px
+}
+footer{
+	width: 100%;min-height: 200px;background-color: #DBDBDB
+}
+.menu{padding-top: 17px}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;color: #4D4D4D;border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred;color: white
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:40px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color:white
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color: darkred;
+      text-decoration: none; }
+.text-do{
+	color: darkred
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #6C6C6C
+}
+aside ul li a{
+	text-decoration: none;padding: 10px;display: block;color: #666666
+}
+aside ul li a:hover{
+	background-color: darkred;color: white
+}
+.text-den{
+	color: #3D3D3D
+}
+.text-center{
+	text-align: center
+}
+footer a{
+	color: #757575
+}
+footer a:hover{
+	color: darkred
+}
+.bg-xanh{
+	background-color: aqua;text-align: center
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+footer ul li a{
+	text-decoration: none;padding: 10px;display: block
+}
